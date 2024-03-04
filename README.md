@@ -2,10 +2,10 @@
 
 This is a machine learning project focusing on computer vision. The goal is this project is to explore deep learning methods for detecting edges in images and compare their performance. Edge Detection aims to find regions in an image where there is a sharp change in intensity or color.
 
-There are three parts in this project: my teammate did Traditional Method Inspired Deep Neural Network for Edge Detection and I did Enhanced Richer Convolutional Features (ERCF) For Edge Detection, which takes VGG19 as a backbone and trains the model with CNN. My model is inspired by Yun Liu, the author of RCF model, as well as several Github contributors (links per below):
+There are two parts in this project:a Traditional Method Inspired Deep Neural Network for Edge Detection, an Enhanced Richer Convolutional Features (ERCF) For Edge Detection, and an  which takes VGG19 as a backbone and trains the model with CNN. The model is inspired by Yun Liu, the author of RCF model, as well as several Github contributors (links per below):
 https://github.com/balajiselvaraj1601/RCF_Pytorch_Updated
 https://github.com/Walstruzz/edge_eval_python
-Finally, I implemented a ConVNeXt, inspired by Zhang Liu.  Constructed entirely from standard ConvNet modules, ConvNeXts is an alternative to Transformers in terms of accuracy and scalability, achieving 87.8% ImageNet top-1 accuracy and outperforming Swin Transformers on COCO detection and ADE20K segmentation, while maintaining the simplicity and efficiency of standard ConvNet.
+
 
 The dataset utilized in this project is BSDS500, which is a popular dataset for edge detection.
 
